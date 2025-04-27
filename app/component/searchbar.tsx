@@ -85,11 +85,12 @@ export default function Searchbar({color, contrast}: {color: string, contrast: s
     updateCheckOut(localCheckOut);
 
     handleWeather();
-    if (user) {
-      window.location.href = '/searchresult';
-    } else {
-      window.location.href = '/auth/signin';
-    }     
+    window.location.href = '/searchresult'
+    // if (user) {
+    //   window.location.href = '/searchresult';
+    // } else {
+    //   window.location.href = '/auth/signin';
+    // }     
   };
 
   return (
