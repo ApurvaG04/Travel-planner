@@ -85,7 +85,7 @@ export default function Searchbar({color, contrast}: {color: string, contrast: s
     updateCheckOut(localCheckOut);
 
     handleWeather();
-    window.location.href = '/searchresult'
+    window.location.href = '/searchresult';
     // if (user) {
     //   window.location.href = '/searchresult';
     // } else {
